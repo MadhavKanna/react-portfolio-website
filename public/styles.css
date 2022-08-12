@@ -1,0 +1,56 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    padding-top: 10%;
+    background-color: #333333;
+    color: white;
+    
+  }
+
+p {
+    font-size: 1.5rem;
+}
+
+.stand-out, #brand {
+    color: #F0B90B; 
+    /* vivid binance yellow #F0B90B */
+    /* yellow #f7d716 */
+    /* red  #F24C4C*/
+    font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron {
+    background-color: #333333;
+    margin-bottom: 5%;
+}
+
+
+/* Navbar  */
+.navbar {
+    background-color: #333333;
+}
+
+.nav-link, .navbar-brand {
+    margin: 0rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.nav-link:hover {
+    background-color: #f7d716;
+    color: #333333;
+}
+
+/* Contact Me */
+.contact-icon {
+    color: white;
+    font-size: 2rem;
+    padding: 10px 10px;
+}
+
+/* What I get up to */
+.heading {
+    font-size: 2.5rem;
+    font-family: 'Abril Fatface', cursive;
+}
