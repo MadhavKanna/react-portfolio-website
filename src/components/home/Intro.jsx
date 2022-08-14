@@ -2,7 +2,7 @@ import React from "react";
 
 function Intro(){
     return (
-        <div className="jumbotron animated slideInRight infinite">
+        <div className="jumbotron" data-mdb-toggle="animation" data-mdb-animation-reset="true" data-mdb-animation="slide-right" data-mdb-animation-start="onHover">
             <div className="container">
                 <div className="row">
                     <div className="col-md-6">

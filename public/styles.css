@@ -54,3 +54,21 @@ p {
     font-size: 2.5rem;
     font-family: 'Abril Fatface', cursive;
 }
+
+
+/* List Styling */
+
+.single-before {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    padding-left: 1rem;
+    text-indent: -0.7rem;
+  }
+
+  li::before {
+    content: "🐻 ";
+  }
+}

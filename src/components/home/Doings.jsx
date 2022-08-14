@@ -1,9 +1,21 @@
 import React from "react"; 
-import SingleDoing from "./SingleDoing"; 
+
+function createList(listItem){
+    return (
+        <p>⚡ {listItem}</p>
+    ); 
+}
 
 function createCard(item){
     return (
-        
+        <div className="row">
+                <div className="col-lg-6">
+                    <h2 className="stand-out">{item["name"]}</h2>
+                    {item["list"].map(createList)}
+                    
+                </div>
+                
+            </div>
     ); 
 }
 
@@ -12,7 +24,7 @@ function Doing(props){
         <div className="container">
             <h2 className="heading">What I get up to</h2>
             
-            {props[data].map()}
+            {props["data"].map(createCard)}
             <hr />
 
         </div>

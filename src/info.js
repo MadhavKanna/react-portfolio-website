@@ -1,9 +1,9 @@
-import self from "../img/self.png"
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+// import self from "../img/self.png"
+// import mock1 from "../img/mock1.png"
+// import mock2 from "../img/mock2.png"
+// import mock3 from "../img/mock3.png"
+// import mock4 from "../img/mock4.png"
+// import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -27,7 +27,7 @@ export const info = {
     lastName: "Thenappan",
     initials: "MKT", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+    // selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
@@ -102,31 +102,31 @@ export const info = {
             title: "Simon Game",
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            // image: mock1
         },
         {
             title: "Tindog",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock2
+            // image: mock2
         },
         {
             title: "Project 3",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock3
+            // image: mock3
         },
         {
             title: "Project 4",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock4
+            // image: mock4
         },
         {
             title: "Project 5",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
-            image: mock5
+            // image: mock5
         }
     ], 
     doings: [
@@ -145,7 +145,7 @@ export const info = {
             name: "AI & Machine Learning",
             icon: "🤖", 
             list: [
-                
+                "AI and Machine Learning stuff"
             ]
 
         }

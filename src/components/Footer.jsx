@@ -1,11 +1,13 @@
 import React from 'react'; 
 
+
+
 function Footer(){
     return (
-        <footer class="container">
-        <p>&copy; Company 2017-2018</p>
+        <footer className="container">
+        <p>&copy; Madhav Kanna 2022</p>
         </footer>
-    ); 
+    );  
 
 }
 
