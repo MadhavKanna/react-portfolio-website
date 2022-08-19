@@ -10,7 +10,10 @@ function App() {
       <div>
          <Navbar />
          <Intro /> 
-         <Doings data={info["doings"]} />
+         <Doings 
+         data={info["doings"]} 
+         // key={info["doings"].name}
+         />
          <Footer />
       </div>
    );

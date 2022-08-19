@@ -138,7 +138,15 @@ export const info = {
                 "Running server backends using NodeJS and Express", 
                 "Using APIs to obtain and send information between servers", 
                 "Programming functionality into websites using JQuery"
-            ]
+            ], 
+            logos: {
+                "Javascript": "fa-js", 
+                "HTML5": "fa-html5", 
+                "CSS3": "fa-css3-alt",
+                "NodeJS": "fa-node-js",
+                "ReactJS": "fa-react",
+                "Bootstrap": "fa-bootstrap"
+            }
         
         }, 
         {
@@ -146,8 +154,21 @@ export const info = {
             icon: "🤖", 
             list: [
                 "AI and Machine Learning stuff"
-            ]
-
+            ], 
+            logos: {
+                "HTML5": "fa-html5", 
+                "CSS3": "fa-css3-alt",
+                "NodeJS": "fa-node-js",
+                "ReactJS": "fa-react",
+                "Bootstrap": "fa-bootstrap"
+            }
         }
+        
+    ], 
+    education: [
+        {
+            name: ""
+        }
+
     ]
 }

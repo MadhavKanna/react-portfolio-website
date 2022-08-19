@@ -5,7 +5,7 @@ import React from 'react';
 function Footer(){
     return (
         <footer className="container">
-        <p>&copy; Madhav Kanna 2022</p>
+        <p>Made with <i className="fa-solid fa-heart"></i> by Madhav Kanna &copy; 2022</p>
         </footer>
     );  
 
