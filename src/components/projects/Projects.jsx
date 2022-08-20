@@ -20,7 +20,7 @@ function Projects(props) {
             <div className="row">
                 <div className="col col-md-12 col-lg-6">
                     <h1 >Projects</h1>
-                    <p>There are plenty of projects I've made to understand, apply, show off, and have fun with web development. Their live links and sources are found below. </p>
+                    <p>Here are some projects I've made to understand, apply, show off, and have fun with web development. Their live links and sources are found below. </p>
                 </div>
             </div>
 
