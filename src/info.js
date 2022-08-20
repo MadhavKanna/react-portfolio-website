@@ -97,38 +97,7 @@ export const info = {
         // Same as above, change the emojis to match / relate to your hobbies or interests.
         // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
-        {
-            title: "Simon Game",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            // image: mock1
-        },
-        {
-            title: "Tindog",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            // image: mock5
-        }
-    ],
+
     doings: [
         {
             name: "Web-Developement",
@@ -173,22 +142,32 @@ export const info = {
     ],
     projects: [
         {
+            name: "Portfolio Website", 
+            description: "Personal Portfolio Website meant to show what I'm about, my projects, my experience and contact", 
+            tech: "ReactJS, React-router, npm, HTML5, CSS3, JS, NodeJS, Express, Bootstrap, Deployed using Heroku",
+            live: "#", 
+            source: ""
+        },
+        {
             name: "Simon Game",
-            description: "The classic memory game, testing memory by requiring the player to remember sequence of colors and sounds",
+            description: "The classic memory game, testing memory by requiring the player to remember sequence of colors and sounds with a record of high score",
             tech: "HTML5, CSS3, JS, Bootstrap, JQuery, Deployed using Github Pages",
-            link: ""
+            live: "",
+            source: ""
         },
         {
             name: "Weather Website",
             description: "A Weather Website showing weather attributes like temperature, humidity, weather conditions, etc using a backend that makes us of OpenWeather API to obtain real time weather data all over the world",
             tech: "HTML5, CSS3, JS, NodeJS, Express, Bootstrap, JQuery, API, Deployed using Heroku",
-            link: ""
+            live: "",
+            source: ""
         },
         {
             name: "Tindog",
             description: "",
             tech: "HTML5, CSS3, JS, Bootstrap, deployed using Github Pages",
-            link: ""
+            live: "",
+            source: ""
         }
 
     ]

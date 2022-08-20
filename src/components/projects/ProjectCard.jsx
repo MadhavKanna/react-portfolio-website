@@ -15,4 +15,4 @@ function ProjectCard(props) {
     );
 }
 
-default export ProjectCard;
+export default ProjectCard;
