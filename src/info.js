@@ -49,7 +49,7 @@ export const info = {
         }
     ],
     socials: [
-        
+
         {
             link: "https://www.instagram.com/madhav_kanna6321/",
             icon: 'fa fa-instagram',
@@ -65,17 +65,17 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
+
+        // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
+        // Just change the links so that they lead to your social profiles.
 
     ],
     bio: "Hello! I am Madhav. I study Computer Science and Statistics at the University of Toronto. I'm an enthusiastic learner  a self-taught full-stack web developer",
     skills:
-        {
-            proficientWith: ['python', 'javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'adobe illustrator']
-        }
+    {
+        proficientWith: ['python', 'javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
+        exposedTo: ['nodejs', 'adobe illustrator']
+    }
     ,
     hobbies: [
         {
@@ -94,8 +94,8 @@ export const info = {
             label: 'cooking',
             emoji: '🌶'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
+        // Same as above, change the emojis to match / relate to your hobbies or interests.
+        // You can also remove the emojis if you'd like, I just think they look cute :P
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
@@ -128,46 +128,67 @@ export const info = {
             source: "https://github.com/paytonjewell",
             // image: mock5
         }
-    ], 
+    ],
     doings: [
         {
-            name: "Web-Developement", 
-            icon: "🕸️", 
+            name: "Web-Developement",
+            icon: "🕸️",
             list: [
-                "Developing complex web apps in Bootstrap, React JS and Svelte JS", 
-                "Running server backends using NodeJS and Express", 
-                "Using APIs to obtain and send information between servers", 
+                "Developing complex web apps in Bootstrap, React JS and Svelte JS",
+                "Running server backends using NodeJS and Express",
+                "Using APIs to obtain and send information between servers",
                 "Programming functionality into websites using JQuery"
-            ], 
+            ],
             logos: {
-                "Javascript": "fa-js", 
-                "HTML5": "fa-html5", 
+                "Javascript": "fa-js",
+                "HTML5": "fa-html5",
                 "CSS3": "fa-css3-alt",
                 "NodeJS": "fa-node-js",
                 "ReactJS": "fa-react",
                 "Bootstrap": "fa-bootstrap"
             }
-        
-        }, 
+
+        },
         {
             name: "AI & Machine Learning",
-            icon: "🤖", 
+            icon: "🤖",
             list: [
                 "AI and Machine Learning stuff"
-            ], 
+            ],
             logos: {
-                "HTML5": "fa-html5", 
+                "HTML5": "fa-html5",
                 "CSS3": "fa-css3-alt",
                 "NodeJS": "fa-node-js",
                 "ReactJS": "fa-react",
                 "Bootstrap": "fa-bootstrap"
             }
         }
-        
-    ], 
+
+    ],
     education: [
         {
             name: ""
+        }
+
+    ],
+    projects: [
+        {
+            name: "Simon Game",
+            description: "The classic memory game, testing memory by requiring the player to remember sequence of colors and sounds",
+            tech: "HTML5, CSS3, JS, Bootstrap, JQuery, Deployed using Github Pages",
+            link: ""
+        },
+        {
+            name: "Weather Website",
+            description: "A Weather Website showing weather attributes like temperature, humidity, weather conditions, etc using a backend that makes us of OpenWeather API to obtain real time weather data all over the world",
+            tech: "HTML5, CSS3, JS, NodeJS, Express, Bootstrap, JQuery, API, Deployed using Heroku",
+            link: ""
+        },
+        {
+            name: "Tindog",
+            description: "",
+            tech: "HTML5, CSS3, JS, Bootstrap, deployed using Github Pages",
+            link: ""
         }
 
     ]
