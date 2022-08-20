@@ -146,18 +146,18 @@ export const info = {
             description: "Personal Portfolio Website meant to show what I'm about, my projects, my experience and contact", 
             tech: "ReactJS, React-router, npm, HTML5, CSS3, JS, NodeJS, Express, Bootstrap, Deployed using Heroku",
             live: "#", 
-            source: ""
+            source: "https://github.com/MadhavKanna/react-portfolio-website"
         },
         {
             name: "Simon Game",
             description: "The classic memory game, testing memory by requiring the player to remember sequence of colors and sounds with a record of high score",
             tech: "HTML5, CSS3, JS, Bootstrap, JQuery, Deployed using Github Pages",
-            live: "",
-            source: ""
+            live: "https://madhavkanna.github.io/Simon-Game/",
+            source: "https://github.com/MadhavKanna/Simon-Game"
         },
         {
             name: "Weather Website",
-            description: "A Weather Website showing weather attributes like temperature, humidity, weather conditions, etc using a backend that makes us of OpenWeather API to obtain real time weather data all over the world",
+            description: "A Weather Website showing temperature, humidity and other weather conditions using real-time data from the OpenWeather API",
             tech: "HTML5, CSS3, JS, NodeJS, Express, Bootstrap, JQuery, API, Deployed using Heroku",
             live: "",
             source: ""
@@ -166,8 +166,8 @@ export const info = {
             name: "Tindog",
             description: "",
             tech: "HTML5, CSS3, JS, Bootstrap, deployed using Github Pages",
-            live: "",
-            source: ""
+            live: "https://madhavkanna.github.io/tindog",
+            source: "https://github.com/MadhavKanna/tindog"
         }
 
     ]

@@ -2,15 +2,14 @@ import React from "react";
 
 function createList(listItem) {
     return (
-        <p>⚡ {listItem}</p>
+        <p key={listItem}>⚡ {listItem}</p>
     );
 }
 
 function createLogo(logo) {
-    console.log(logo[0]);
     return (
-        <a data-bs-toggle="tooltip" data-bs-placement="top" title={logo[0]}>
-            <i className={"doing-logo fa-5x fa-brands " + logo[1]} />
+        <a data-bs-toggle="tooltip" data-bs-placement="top" title={logo[0]} key={logo}>
+            <i className={"doing-logo fa-5x fa-brands " + logo[1]} key={logo} />
         </a>
 
 
@@ -41,7 +40,7 @@ function createCard(item) {
 function Doing(props) {
     return (
         <div className="container">
-            <h2 className="heading">What I get up to</h2>
+            <h1 className="heading">What I get up to</h1>
 
             {props["data"].map(createCard)}
 
