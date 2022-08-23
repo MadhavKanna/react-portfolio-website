@@ -19,7 +19,7 @@ function Projects(props) {
         <div className="jumbotron" id="projects-intro">
             <div className="row">
                 <div className="col col-md-12 col-lg-6">
-                    <h1 >Projects</h1>
+                    <h1 className="stand-out">Projects</h1>
                     <p>Here are some projects I've made to understand, apply, show off, and have fun with web development. Their live links and sources are found below. </p>
                 </div>
             </div>
