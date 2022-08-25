@@ -9,8 +9,8 @@ function Card(cardData) {
                     <h5 className="card-title stand-out">{cardData.name}</h5>
                     <h6 className="card-subtitle mb-2 text-muted">{cardData.tech}</h6>
                     <p className="card-text">{cardData.description}</p>
-                    <a href={cardData.live} className="card-link"><button type="button" class="btn btn-warning">Live Link</button></a>
-                    <a href={cardData.source} className="card-link"><button type="button" class="btn btn-warning">Github Link</button></a>
+                    <a href={cardData.live} className="card-link"><button type="button" className="btn btn-warning">Live Link</button></a>
+                    <a href={cardData.source} className="card-link"><button type="button" className="btn btn-warning">Github Link</button></a>
                 </div>
             </div>
         </div>

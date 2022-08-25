@@ -2,7 +2,7 @@ import React from "react";
 
 function addLink(link){
     if (link.length !== 0) {
-        return (<a href={link} className="card-link"><button type="button" class="btn btn-warning">View Certificate</button></a>);
+        return (<a href={link} className="card-link"><button type="button" className="btn btn-warning">View Certificate</button></a>);
     }
 }
 
