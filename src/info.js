@@ -71,12 +71,12 @@ export const info = {
 
     ],
     bio: "Hello! I am Madhav. I study Computer Science and Statistics at the University of Toronto. I'm an enthusiastic learner  a self-taught full-stack web developer",
-    skills:
-    {
-        proficientWith: ['python', 'javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-        exposedTo: ['nodejs', 'adobe illustrator']
-    }
-    ,
+    // skills:
+    // {
+    //     proficientWith: ['python', 'javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
+    //     exposedTo: ['nodejs', 'adobe illustrator']
+    // }
+    // ,
     hobbies: [
         {
             label: 'reading',
@@ -136,10 +136,61 @@ export const info = {
     ],
     education: [
         {
-            name: ""
-        }
+            name: "CBSE 12th Standard Certificate", 
+            institution: "Chettinad Vidyshram, Chennai, India",
+            year: "2020 - 21", 
+            subjectGrades: 
+                {
+                "Computer Science": "", 
+                "Physics": "", 
+                "Math": "", 
+                "Chemistry": "", 
+                "English": ""
+            }, 
+            link: ""
+            
+
+        }, 
+        {
+            name: "CBSE 10th Standard Certificate", 
+            institution: "Chettinad Vidyshram, Chennai, India",
+            year: "2012 - 20", 
+            subjectGrades: {
+                "Computer Science": "", 
+                "Physics": "", 
+                "Math": "", 
+                "Chemistry": "", 
+                "English": ""
+            }, 
+            link: ""
+
+        },
+        {name: "SAT Subjects", 
+        instituiton: "College Board, Chennai, India", 
+        year: "2021", 
+        subjectGrades: {
+            "Physics": "800/800", 
+            "Mathematics": "800/800"
+        }, 
+        link: ""
+    }
+        // {
+        //     name: "Hon. BSc Computer Science, Statistics and Mathematics",
+        //     institution: "University of Toronto", 
+        //     year: "2021 - present"
+        //     subjectGrades:[
+
+        //     ]
+
+        // }
 
     ],
+    skills: [
+        {
+            name: "Web-development "
+        }
+    ], 
+
     projects: [
         {
             name: "Portfolio Website", 
@@ -164,7 +215,7 @@ export const info = {
         },
         {
             name: "Tindog",
-            description: "",
+            description: "A website meant to show off simple UI design and implementation using Bootstrap, and hosted on Github",
             tech: "HTML5, CSS3, JS, Bootstrap, deployed using Github Pages",
             live: "https://madhavkanna.github.io/tindog",
             source: "https://github.com/MadhavKanna/tindog"

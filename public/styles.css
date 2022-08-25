@@ -88,6 +88,7 @@ h1 {
     margin: 3% 0% 10% 10%;
 }
 
+
 /* Cards */
 .card-body {
     background-color: #28231D;
@@ -95,6 +96,11 @@ h1 {
 
 .card-text {
     font-size: 1.2rem;
+}
+
+.card-subjects {
+    font-size: 1rem;
+    line-height: 50%;
 }
 /* Footer */
 footer {

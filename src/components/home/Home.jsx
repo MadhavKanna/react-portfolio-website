@@ -1,7 +1,7 @@
 import React from "react";  
 import Intro from "./Intro"; 
 import Doings from "./Doings"; 
-import {info, colors} from "../../info"; 
+import {info} from "../../info"; 
 
 
 function Home(){

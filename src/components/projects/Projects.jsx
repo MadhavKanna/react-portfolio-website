@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import { info, colors } from "../../info";
+import { info} from "../../info";
 
 function createCard(cardData) {
     return (
