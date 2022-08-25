@@ -141,13 +141,13 @@ export const info = {
             year: "2020 - 21", 
             subjectGrades: 
                 {
-                "Computer Science": "", 
-                "Physics": "", 
-                "Math": "", 
-                "Chemistry": "", 
-                "English": ""
+                "Computer Science": "A1 - 99/100", 
+                "Physics": "A1 - 97/100", 
+                "Math": "A1 - 96/100", 
+                "Chemistry": "A1 - 97/100", 
+                "English": "A1 - 97/100"
             }, 
-            link: ""
+            link: "https://drive.google.com/file/d/1YXKNxK6ZyO75mRyM-4QciAGFV23cbSIa/view?usp=sharing"
             
 
         }, 
@@ -156,13 +156,14 @@ export const info = {
             institution: "Chettinad Vidyshram, Chennai, India",
             year: "2012 - 20", 
             subjectGrades: {
-                "Computer Science": "", 
-                "Physics": "", 
-                "Math": "", 
-                "Chemistry": "", 
-                "English": ""
+                "Foundations of IT": "A1 - 98/100", 
+                "Mathematics": "A1 - 98", 
+                "Science": "A1 - 95", 
+                "Social Science": "A1 - 95", 
+                "English": "A2 - 92", 
+                "Hindi": "A2 - 92"
             }, 
-            link: ""
+            link: "https://drive.google.com/file/d/1VuQpN4v19F9u4C4rrSRfxSMc-eZUknXK/view?usp=sharing"
 
         },
         {name: "SAT Subjects", 
@@ -221,5 +222,6 @@ export const info = {
             source: "https://github.com/MadhavKanna/tindog"
         }
 
-    ]
+    ], 
+    resumeLink: "https://drive.google.com/file/d/1jilDEbKNacT-WkhgXIJyMvffirh_V4XT/view?usp=sharing"
 }

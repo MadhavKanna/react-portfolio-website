@@ -24,7 +24,7 @@ function Navbar(props) {
                 </div>
             </nav> */}
             <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-black animated slideInDown">
-                <a className="navbar-brand " id="brand" href="/">Project Robot</a>
+                <NavLink className="navbar-brand " id="brand" to="/">Project Robot</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
                     aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

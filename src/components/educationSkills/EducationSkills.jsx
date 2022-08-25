@@ -19,7 +19,7 @@ function EducationSkills() {
         <>
             <div className="jumbotron">
             <div className="row">
-                <div className="col col-md-12 col-lg-6">
+                <div className="col col-md-12 col-lg-6" id="education-intro">
                     <h1 className="stand-out" >Education</h1>
                 </div>
             </div>
