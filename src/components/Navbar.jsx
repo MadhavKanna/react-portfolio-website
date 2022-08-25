@@ -1,28 +1,39 @@
 import React from "react";
+
+// using bootstrap-react to make navbar(makes a request to the server to redirect)
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+
+// function SiteNavbar(props) {
+//   return (
+//     <Navbar expand="md" bg="dark" variant="dark">
+//       <Container>
+//         <Navbar.Brand href="#home" id="brand">Project Robot</Navbar.Brand>
+//         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+//         <Navbar.Collapse id="responsive-navbar-nav">
+//           <Nav className="me-auto">
+//             <Nav.Link href="/">Home</Nav.Link>
+//             <Nav.Link href="/education">Education & Skills</Nav.Link>
+//             <Nav.Link href="/projects">Projects</Nav.Link>
+//             <Nav.Link href="/contact">Contact</Nav.Link>
+            
+//           </Nav>
+//         </Navbar.Collapse>
+//       </Container>
+//     </Navbar>
+//   );
+// }
+
+// export default SiteNavbar;
+
+
+
 import { NavLink } from "react-router-dom";
 
-function Navbar(props) {
+function SiteNavbar() {
     return (
         <div>
-            {/* <nav className="navbar navbar-expand-lg bg-dark">
-                <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Navbar</a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#" style={{color: "black"}}>Link</a>
-                            </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </nav> */}
             <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-black animated slideInDown">
                 <NavLink className="navbar-brand " id="brand" to="/">Project Robot</NavLink>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
@@ -36,7 +47,7 @@ function Navbar(props) {
                             <NavLink className="nav-link" to="/">Home</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/educationskills">Education & Skills</NavLink>
+                            <NavLink className="nav-link" to="/education">Education & Skills</NavLink>
                         </li>
                         <li className="nav-item" href="#">
                             <NavLink className="nav-link" to="/projects">Projects</NavLink>
@@ -52,4 +63,4 @@ function Navbar(props) {
     );
 }
 
-export default Navbar;
+export default SiteNavbar;

@@ -5,7 +5,7 @@ import Contact from "./contact/Contact";
 import Projects from "./projects/Projects"; 
 
 import Footer from "./Footer"; 
-import Navbar from "./Navbar"; 
+import SiteNavbar from "./Navbar"; 
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,11 +15,11 @@ import {
 function App() {
    return (
    <Router>
-    <Navbar />
+    <SiteNavbar />
     <Routes>
       <Route path="/" element={<Home/>} />
       <Route path="/contact" element={<Contact/>} /> 
-      <Route path="/educationskills" element={<EducationSkills/>} />
+      <Route path="/education" element={<EducationSkills/>} />
       <Route path="/projects" element={<Projects />}></Route>
       <Route path="/contact" element={<Contact />} /> 
       <Route path="*" element={<h1>Error Page not found 404</h1>} />
