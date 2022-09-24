@@ -118,20 +118,20 @@ export const info = {
             }
 
         },
-        // {
-        //     name: "AI & Machine Learning",
-        //     icon: "🤖",
-        //     list: [
-        //         "AI and Machine Learning stuff"
-        //     ],
-        //     logos: {
-        //         "HTML5": "fa-html5",
-        //         "CSS3": "fa-css3-alt",
-        //         "NodeJS": "fa-node-js",
-        //         "ReactJS": "fa-react",
-        //         "Bootstrap": "fa-bootstrap"
-        //     }
-        // }
+        {
+            name: "AI & Machine Learning",
+            icon: "🤖",
+            list: [
+                "AI and Machine Learning stuff"
+            ],
+            logos: {
+                "HTML5": "fa-html5",
+                "CSS3": "fa-css3-alt",
+                "NodeJS": "fa-node-js",
+                "ReactJS": "fa-react",
+                "Bootstrap": "fa-bootstrap"
+            }
+        }
 
     ],
     education: [
